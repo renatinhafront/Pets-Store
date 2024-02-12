@@ -1,5 +1,3 @@
-# Pets-Store
-
 # API de Loja de Pets
 
 Esta é uma API de exemplo para uma loja de pets, desenvolvida em Go, utilizando o framework Mux para roteamento e o banco de dados memDB.
