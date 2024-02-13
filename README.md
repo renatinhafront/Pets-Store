@@ -18,40 +18,40 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
 git clone https://git@github.com:renatinhafront/pet-store.git
 Navegue até o diretório do projeto:
 bash
-Copy code
+
 cd pet-store
 Instale as dependências:
 bash
-Copy code
+
 go mod tidy
 Execute a aplicação:
 bash
-Copy code
+
 go run main.go
 A API estará disponível em http://localhost:8080.
 
 Endpoints
 Listar todos os Pets
 bash
-Copy code
+
 GET /pets
 Retorna uma lista de todos os pets na loja.
 
 Adicionar um novo Pet
 bash
-Copy code
+
 POST /pets
 Adiciona um novo pet à loja. Envie os dados do pet no corpo da solicitação no formato JSON.
 
 Obter informações de um Pet específico
 bash
-Copy code
+
 GET /pets/{id}
 Retorna informações sobre o pet com o ID fornecido.
 
 Atualizar informações de um Pet
 bash
-Copy code
+
 PUT /pets/{id}
 Atualiza as informações do pet com o ID fornecido. Envie os dados atualizados no corpo da solicitação no formato JSON.
 
@@ -61,14 +61,12 @@ Copy code
 DELETE /pets/{id}
 Remove o pet com o ID fornecido da loja.
 
-Contribuição
+```
+## Contribuição
 Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
-
-Golang
-Copy code
 
 ## Me encontre aqui:
 
